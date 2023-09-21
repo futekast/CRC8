@@ -15,6 +15,6 @@ extern uint8_t const crcTable[256];
 //						and returns it.
 // 	Parameters:	 		p:			Data pointer
 //						length:		Number of bytes 
-// 	Returns: 			None
+// 	Returns: 			The updated CRC value
 //------------------------------------------------------------------------------
 uint8_t crc8(uint8_t *p, uint8_t length);
